@@ -19,7 +19,7 @@ from kivy.vector import Vector
 from kivy.clock import Clock
 
 # Importing the Dqn object from our AI in ia.py
-from ai import Dqn
+from deep_q_learning import Dqn
 
 # Adding this line if we don't want the right click to put a red point
 Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
