@@ -1,26 +1,43 @@
-# DeepLearningSelfDriving
-Self Driving  Car
-1st make sure to install KIVY manually if you do not have anaconda, sometimes even if you do have it might inform you that no module found, at that moment make sure that you definitely install KIVY, by the command pip install kivy, likewise make sure that you even install torch.
+# Deep Learning
+# Self-Driving Car Project
 
-We do need both these modules for building up our deep q learning AI, 
-KIVY has nothing to do with AI, but it will help us to build UI, buttons, widgets, maps etc., 
-But we need PyTorch for implementing our AI 
-Ref’s 
-This time, we have much more to define than just the states, actions and rewards. Building a self-driving car is a seriously complex problem. Now, I’m not going to ask you to go to your garage and turn yourself into a hybrid AI mechanic; you’re simply going to build a virtual self-driving car that moves around a 2D map. 
+## Overview
+This project involves building a virtual self-driving car that navigates a 2D map. We'll use Kivy for the user interface and PyTorch for implementing deep Q-learning AI.
 
-You’ll build this 2D map inside a Kivy webapp. Kivy is a free and open-source Python framework, used for the development of applications like games, or any kind of mobile app. Check out the website here: https://kivy.org/#home
-The whole environment for this project is built with Kivy, from start to finish. The development of the map and the virtual car has nothing to do with Artificial Intelligence, so we won’t go line by line through the code that implements it.
-You can directly get the map file from:
-https://github.com/AbhinayRao593/DeepLearningSelfDriving/blob/main/map_commented.py
+## Prerequisites
+1. **Kivy**: A Python framework for developing multitouch applications, required for creating the UI, buttons, widgets, and maps.
+2. **PyTorch**: A deep learning library needed for implementing our AI.
 
-It do have step by step information about what all we are going to use for the implementation, and why?
+## Installation Instructions
 
-You can get the main map file here:
-https://github.com/AbhinayRao593/DeepLearningSelfDriving/blob/main/map.py
+### Kivy
+If you don't have Anaconda, or if you encounter an error stating that the Kivy module is not found, install Kivy manually:
+```bash
+pip install kivy
+```
 
-Now comes the challenge, we will write the entire Deep Q Learning AI ourself.
+### PyTorch
+Ensure that you have PyTorch installed as well:
+```bash
+pip install torch
+```
 
-So, Let’s start…
+## Project Details
+### Description
+Building a self-driving car is a complex problem. In this project, you'll create a virtual self-driving car that navigates a 2D map within a Kivy web app. While Kivy is used to build the environment and interface, PyTorch is utilized for the AI components.
+
+### Main Map File
+You can get the main map file for this project from the following link:
+[Main Map File](https://github.com/faizhussain7/DeepLearning-SelfDrivingCar/blob/main/map.py)
+
+### References
+- Kivy Official Website: [Kivy.org](https://kivy.org/#home)
+
+### Important Notes
+- The Kivy framework is solely used for the graphical user interface and does not involve AI.
+- PyTorch is essential for developing the deep Q-learning algorithm that drives the self-driving car's decision-making process.
+
+By following this guide and ensuring the necessary installations, you'll be set to build and explore the intricacies of a virtual self-driving car using deep Q-learning AI within a Kivy environment.
 
 
 
